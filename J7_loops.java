@@ -177,31 +177,88 @@
 //     }
 // }
 
+// import java.util.Scanner;
+// public class J7_loops
+// {
+//     public static void main(String args[])
+//     {
+//         Scanner sc =new  Scanner(System.in);
+//         int n = sc.nextInt();
+//         int i=2;
+//         if(n==2 )
+//              System.out.println("Prime");
+//         else{
+//         boolean isPrime = true;
+//         while(i< Math.sqrt(n))
+//         {
+//             if(n%i == 0) 
+//             {
+//                 // System.out.println("Number is not prime");
+//                 isPrime = false;
+//                 break;
+//             }
+//             i++;
+//         }
+//         if(isPrime == false) System.out.println("composite");
+//         else System.out.println("Prime");
+//     }
+
+//     }
+// }
+
+// import java.util.Scanner;
+// public class J7_loops
+// {
+//     public static void main(String args[])
+//     {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter total number you want to add :- ");
+//         int n = sc.nextInt();
+//         int even_sum = 0;
+//         int odd_sum = 0;
+//         for(int i=0;i<n;i++)
+//         {
+//             int x = sc.nextInt();
+//             if(x%2==0)
+//             {
+//                 even_sum += x;
+//             }
+//             else
+//             {
+//                 odd_sum += x;
+//             }
+//         }
+//         System.out.println("Even sum "+even_sum);
+//         System.out.println("Odd sum"+odd_sum);
+//     }
+// }
+
+// import java.util.Scanner;
+// public class J7_loops
+// {
+//     public static void main(String args[])
+//     {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter the number :- ");
+//         int n = sc.nextInt();
+//         int fact = 1;
+//         for(int i=2;i<=n;i++)
+//         {
+//             fact *= i;
+//         }
+//         System.out.println("Factorial = "+fact);
+//     }
+// }
 import java.util.Scanner;
 public class J7_loops
 {
     public static void main(String args[])
     {
-        Scanner sc =new  Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int i=2;
-        if(n==2 )
-             System.out.println("Prime");
-        else{
-        boolean isPrime = true;
-        while(i< Math.sqrt(n))
+        for(int i=1;i<=10;i++)
         {
-            if(n%i == 0) 
-            {
-                // System.out.println("Number is not prime");
-                isPrime = false;
-                break;
-            }
-            i++;
+            System.out.print(i*n+" ");
         }
-        if(isPrime == false) System.out.println("composite");
-        else System.out.println("Prime");
-    }
-
     }
 }
